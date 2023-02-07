@@ -41,7 +41,7 @@ body.dark-theme {
 }
 
 html {
-  min-height: 645px;
+  min-height: 619px;
   align-items: center;
   display: grid;
 }
@@ -107,7 +107,8 @@ body {
   color: #141414;
 }
 
-.logo-area, .register-area {
+.logo-area,
+.register-area {
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -126,11 +127,15 @@ body {
   border: 2px solid #141414;
 }
 
-.desktop--login, .desktop--links {
+.desktop--login,
+.desktop--links {
   display: none;
 }
 
-.theme-toggler, .logo, .menu-icon, .close-menu-icon {
+.theme-toggler,
+.logo,
+.menu-icon,
+.close-menu-icon {
   cursor: pointer;
 }
 
@@ -310,7 +315,9 @@ body {
 }
 
 @media (min-width: 960px) {
-  .mobile--menu, .overlay {
+
+  .mobile--menu,
+  .overlay {
     display: none;
   }
 
@@ -318,7 +325,8 @@ body {
     padding: 1.5rem;
   }
 
-  .desktop--login, .desktop--links {
+  .desktop--login,
+  .desktop--links {
     flex-direction: row;
     justify-content: center;
     align-items: center;
