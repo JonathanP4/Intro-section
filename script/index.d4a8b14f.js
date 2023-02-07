@@ -15,10 +15,6 @@ const resizeObserver = new ResizeObserver((entry) => {
     else heroImg.setAttribute("src", "./img/image-hero-mobile.40110e5d.png");
 });
 resizeObserver.observe(document.body);
-document.querySelector("html").style.height = `${window.innerHeight}px`;
-addEventListener("resize", () => {
-    document.querySelector("html").style.height = `${window.innerHeight}px`;
-});
 links.forEach((el) => el.addEventListener("click", (e) => e.preventDefault()));
 const themeToggle = function () {
     if (body.classList.contains("dark-theme")) {

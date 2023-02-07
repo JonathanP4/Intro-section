@@ -42,8 +42,6 @@ body.dark-theme {
 
 html {
   min-height: 619px;
-  align-items: center;
-  display: grid;
 }
 
 .wrapper {
