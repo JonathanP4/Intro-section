@@ -63,4 +63,10 @@ desktopExpandMenu.forEach((el) => {
     });
 });
 
+const matchTheme = window.matchMedia("(prefers-color-scheme: dark)")
+
+if (matchTheme.matches) {
+    document.body.classList.add('dark-theme')
+    themeToggle()
+}
 //# sourceMappingURL=index.d4a8b14f.js.map
