@@ -1,0 +1,120 @@
+body.light-theme {
+  background-color: #fafafa;
+}
+
+body.dark-theme {
+  background-color: #2e2e2e;
+}
+
+.text-white {
+  color: #fafafa;
+}
+
+.bg-white {
+  background-color: #fafafa;
+}
+
+body.dark-theme .text-white {
+  color: #fff;
+}
+
+body.dark-theme .bg-white {
+  background-color: #2e2e2e;
+}
+
+body.dark-theme .hero--title {
+  color: #c7c7c7;
+}
+
+body.dark-theme .theme-toggler, body.dark-theme .close-menu-icon, body.dark-theme .nav img {
+  filter: invert(70%);
+}
+
+body.dark-theme .mobile__menu__login a:nth-child(2):hover {
+  color: #c7c7c7;
+  border: 2px solid #c7c7c7;
+}
+
+body.dark-theme .nav * a:hover {
+  color: #c7c7c7;
+}
+
+body.dark-theme .desktop--login a:nth-child(2):hover {
+  border: 2px solid #c7c7c7;
+}
+
+.text-medium-gray {
+  color: #696969;
+}
+
+.bg-medium-gray {
+  background-color: #696969;
+}
+
+body.dark-theme .text-medium-gray {
+  color: #a8a8a8;
+}
+
+body.dark-theme .bg-medium-gray {
+  background-color: #000;
+}
+
+body.dark-theme .hero--title {
+  color: #c7c7c7;
+}
+
+body.dark-theme .theme-toggler, body.dark-theme .close-menu-icon, body.dark-theme .nav img {
+  filter: invert(70%);
+}
+
+body.dark-theme .mobile__menu__login a:nth-child(2):hover {
+  color: #c7c7c7;
+  border: 2px solid #c7c7c7;
+}
+
+body.dark-theme .nav * a:hover {
+  color: #c7c7c7;
+}
+
+body.dark-theme .desktop--login a:nth-child(2):hover {
+  border: 2px solid #c7c7c7;
+}
+
+.text-black {
+  color: #141414;
+}
+
+.bg-black {
+  background-color: #141414;
+}
+
+body.dark-theme .text-black {
+  color: #545454;
+}
+
+body.dark-theme .bg-black {
+  background-color: #000;
+}
+
+body.dark-theme .hero--title {
+  color: #c7c7c7;
+}
+
+body.dark-theme .theme-toggler, body.dark-theme .close-menu-icon, body.dark-theme .nav img {
+  filter: invert(70%);
+}
+
+body.dark-theme .mobile__menu__login a:nth-child(2):hover {
+  color: #c7c7c7;
+  border: 2px solid #c7c7c7;
+}
+
+body.dark-theme .nav * a:hover {
+  color: #c7c7c7;
+}
+
+body.dark-theme .desktop--login a:nth-child(2):hover {
+  border: 2px solid #c7c7c7;
+}
+
+/*# sourceMappingURL=index.612589ed.css.map */
